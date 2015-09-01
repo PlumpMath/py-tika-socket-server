@@ -1,0 +1,10 @@
+
+*.pyc
+*.zip
+.DS_Store
+
+lib/
+!lib/.keep
+
+tmp/
+!tmp/.keep
