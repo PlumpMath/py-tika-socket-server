@@ -50,15 +50,3 @@ class TikaClient(object):
             return (ord(rtn) == 1, "".join(data))
         finally:
             self.sock.close()
-
-# if __name__ == "__main__":
-
-#     client = TikaClient()
-#     print "Server Check: {}".format(client.server_check()[1])
-    
-#     fp=''
-#     text=client.extract_text(fp)
-#     print "Server Check: {}".format(text[1])
-
-#     client.server_shutdown()
-#     print "Shutdown ... "
